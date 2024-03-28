@@ -1,0 +1,51 @@
+CRASHER@CRASHER MINGW64 ~
+$ mkdir new_directory
+
+CRASHER@CRASHER MINGW64 ~
+$ ls Geekster
+Eda/  excel/  python/  sql/
+
+CRASHER@CRASHER MINGW64 ~
+$ cd new_directory
+
+CRASHER@CRASHER MINGW64 ~/new_directory
+$ touch file.txt
+
+CRASHER@CRASHER MINGW64 ~/new_directory
+$ nano file.txt
+
+CRASHER@CRASHER MINGW64 ~/new_directory
+$ cat file.txt
+Hello! I hope you are doing Great.
+
+CRASHER@CRASHER MINGW64 ~/new_directory
+$ pwd file.txt
+/c/Users/Asus/new_directory
+
+CRASHER@CRASHER MINGW64 ~/new_directory
+$ mv /c/Users/Asus/new_directory/file.txt /c/Users/Asus/new_directory/new_text.txt
+
+CRASHER@CRASHER MINGW64 ~/new_directory
+$ ls new_directory
+ls: cannot access 'new_directory': No such file or directory
+
+CRASHER@CRASHER MINGW64 ~/new_directory
+$ cd ..
+
+CRASHER@CRASHER MINGW64 ~
+$ ls new_directory
+new_text.txt
+
+CRASHER@CRASHER MINGW64 ~
+$ rm new_directory
+rm: cannot remove 'new_directory': Is a directory
+
+CRASHER@CRASHER MINGW64 ~
+$ rm -r new_directory
+
+CRASHER@CRASHER MINGW64 ~
+$ git init
+Initialized empty Git repository in C:/Users/Asus/.git/
+
+
+
