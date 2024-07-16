@@ -1,4 +1,8 @@
 #  *Git and Uses of Basic Commands* 
+
+![360_F_346674436_YxxiIqRrPij0u5mcVhZGK1hOf3hRQm2o](https://github.com/user-attachments/assets/b7866425-474d-4eb8-abdb-d42741e5ba16)
+
+
 This repository contains sample code snippets demonstrating basic file manipulation and Git commands.
 
 # Contents
